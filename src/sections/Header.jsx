@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png'
 import { Link as LinkScroll } from 'react-scroll'
 import 'remixicon/fonts/remixicon.css'
 import clsx from 'clsx'

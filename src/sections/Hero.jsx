@@ -24,7 +24,7 @@ const Hero = () => {
                     </div>
 
 
-                    <div className='absolute -top-52 left-[calc(50%-340px)] w-[1230px] pointer-events-none max-md:hidden hero-img-res'>
+                    <div className='absolute -top-60 left-[calc(50%-340px)] w-[1230px] pointer-events-none max-md:hidden hero-img-res'>
                         <img src={byakuya} alt="hero" className='size-1230 max-lg:h-auto' />
                     </div>
                     

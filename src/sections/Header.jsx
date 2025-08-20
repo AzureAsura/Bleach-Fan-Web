@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link as LinkScroll } from 'react-scroll'
 import 'remixicon/fonts/remixicon.css'
 import clsx from 'clsx'
@@ -15,10 +15,23 @@ const Navlink = ({ title }) => (
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
+    const [hasScroll, setHasScroll] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setHasScroll(window.scrollY > 32)
+        }
+
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }
+    },[])
 
 
     return (
-        <header className='fixed top-0 left-0 z-50 w-full py-10'>
+        <header className={clsx('fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-2' , hasScroll && 'py-2 bg-black-100 backdrop-blur-[8px]') }>
             <div className='container flex h-14 items-center max-lg:px-5'>
                 <a href="" className='lg:hidden flex-1 cursor-pointer z-2'>
                     <img src={logo2} alt="logo" width={165} height={65} />

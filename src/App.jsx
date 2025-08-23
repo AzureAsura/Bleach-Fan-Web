@@ -1,6 +1,7 @@
 import Header from "./sections/Header"
 import Hero from "./sections/Hero"
 import Features from "./sections/Features"
+import Characters from "./sections/Characters"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header/>
         <Hero/>
         <Features/>
+        <Characters/>
       </main>
     </>
   )

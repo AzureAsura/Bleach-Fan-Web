@@ -29,6 +29,19 @@ const Header = () => {
         }
     },[])
 
+    const Navlink = ({ title }) => (
+    <LinkScroll
+        to={title}
+        onClick={() => setIsOpen (false)}
+        offset={-100}
+        spy
+        smooth
+        className='base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5'
+    >
+        {title}
+    </LinkScroll>
+)
+
 
     return (
         <header className={clsx('fixed top-0 left-0 z-50 w-full py-10 transition-all duration-500 max-lg:py-2' , hasScroll && 'py-2 bg-black-100 backdrop-blur-[8px]') }>
@@ -50,7 +63,7 @@ const Header = () => {
                                 <li className='nav-logo'>
                                     <LinkScroll
                                     to='hero'
-                                    offset={-100}
+                                    offset={-200}
                                     spy 
                                     smooth
                                     className={clsx('max-lg:hidden transition-transform duration-500 cursor-pointer')}

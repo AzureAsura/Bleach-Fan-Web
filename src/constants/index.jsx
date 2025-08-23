@@ -3,8 +3,8 @@ export const features = [
         id: '1',
         icon: '/feature1.png',
         caption: 'Gotei 13',
-        title: 'The last line of defense',
-        text: "The Captains stand tall, blades drawn, ready to sacrifice everything for Soul Society. In the Thousand-Year Blood War, their Bankai blaze brighter than ever before.",
+        title: 'Guardians of Soul Society',
+        text: "The Gotei 13 have long been the backbone of Soul Society’s protection. In the Thousand-Year Blood War, their Captains face an enemy unlike any before, revealing the true depths of their Bankai.",
         button: {
             icon: '/magictouch.svg',
             title: 'Watch the Anime'
@@ -13,9 +13,9 @@ export const features = [
     {
         id: '2',
         icon: '/feature2.png',
-        caption: 'Wandenreich empire',
-        title: 'The Quincy return',
-        text: "Hidden for a thousand years, the Quincies rise again under Yhwach’s banner. With the Sternritter at their side, they march to reclaim what was once denied.",
+        caption: 'Wandenreich Empire',
+        title: 'The Return of the Quincy',
+        text: "Hidden in the shadows for a thousand years, the Quincy rise again under Yhwach’s rule. With the Sternritter at their command, they wage a war that threatens the balance of all worlds.",
         button: {
             icon: '/magictouch.svg',
             title: 'Read the Manga'
@@ -27,21 +27,21 @@ export const details = [
   {
     id: '0',
     icon: '/feature1.png',
-    title: 'Bankai unleashed',
+    title: 'Bankai at full power',
   },
   {
     id: '1',
     icon: '/feature1.png',
-    title: 'Fight alongside your squad',
+    title: 'Fight beside the Captains',
   },
   {
     id: '2',
     icon: '/feature1.png',
-    title: 'Blitzkrieg Quincy warfare',
+    title: 'Quincy invasion begins',
   },
   {
     id: '3',
     icon: '/feature1.png',
-    title: 'Soul Society never sleeps',
+    title: 'Soul Society on the brink',
   },
 ];

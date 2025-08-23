@@ -18,7 +18,7 @@ const Hero = () => {
                         <p className='max-w-440 mb-14 body-1 max-md:mb-10'>
                             A fanmade site dedicated to Bleach Thousand Year Blood War that dives into the characters, epic battles, and the world of Soul Reapers.
                         </p>
-                        <LinkScroll to='characters' offset={-100} spy smooth>
+                        <LinkScroll to='about' offset={-100} spy smooth>
                             <Button icon={zap}>Explore</Button>
                         </LinkScroll>
                     </div>

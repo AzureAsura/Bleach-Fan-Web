@@ -1,3 +1,5 @@
+import { title } from "framer-motion/client";
+
 export const features = [
     {
         id: '1',
@@ -45,3 +47,32 @@ export const details = [
     title: 'Soul Society on the brink',
   },
 ];
+
+
+export const characterCards = [
+  {
+    id: 'char-1',
+    imgUrl: '/ichigo.png',
+    title: 'Kurosaki Ichigo',
+  },
+  {
+    id: 'char-2',
+    imgUrl: '/aizen.jpg',
+    title: 'Sosuke Aizen',
+  },
+  {
+    id: 'char-3',
+    imgUrl: '/yhwach.jpg',
+    title: 'Yhwach',
+  },
+  {
+    id: 'char-4',
+    imgUrl: '/byakuyaa.jpg',
+    title: 'Kuchiki Byakuya',
+  },
+  {
+    id: 'char-5',
+    imgUrl: '/uryu.jpg',
+    title: 'Ishida Uryu',
+  },
+]

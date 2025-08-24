@@ -2,6 +2,14 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      xs: '475px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
         p1: '#2EF2FF',
@@ -80,6 +88,27 @@ export default {
         280: '0 0 280px',
         256: '0 0 256px',
         100: '0 0 100%',
+      },
+      // Custom utility classes from your styles object
+      maxWidth: {
+        'custom-inner': '1280px', // for innerWidth
+      },
+      width: {
+        'custom-inter': '80%', // for interWidth
+      },
+      fontSize: {
+        'hero-lg': ['144px', { lineHeight: '158.4px' }],
+        'hero-md': ['100px', { lineHeight: '114.4px' }],
+        'hero-sm': ['60px', { lineHeight: '74.4px' }],
+        'hero-base': ['44px', { lineHeight: '64.4px' }],
+      },
+      // Custom component-like utilities
+      padding: {
+        'nav-top': '98px',
+      },
+      borderWidth: {
+        '9': '9px',
+        '18': '18px',
       },
     },
   },

@@ -53,26 +53,32 @@ export const characterCards = [
   {
     id: 'char-1',
     imgUrl: '/ichigo.png',
+    skill: 'Getsuga Tenshō',
     title: 'Kurosaki Ichigo',
   },
   {
     id: 'char-2',
     imgUrl: '/aizen.jpg',
-    title: 'Sosuke Aizen',
+    skill: 'Kyōka Suigetsu',
+    title: 'Aizen Sōsuke',
   },
   {
     id: 'char-3',
-    imgUrl: '/yhwach.jpg',
-    title: 'Yhwach',
+    imgUrl: '/shinji.jpg',
+    skill: 'Sakanade',
+    title: 'Hirako Shinji',
   },
   {
     id: 'char-4',
     imgUrl: '/byakuyaa.jpg',
+    skill: 'Senbonzakura Kageyoshi',
     title: 'Kuchiki Byakuya',
   },
   {
     id: 'char-5',
-    imgUrl: '/uryu.jpg',
-    title: 'Ishida Uryu',
+    imgUrl: '/urahara.jpg',
+    skill: 'Benihime',
+    title: 'Urahara Kisuke',
   },
 ]
+

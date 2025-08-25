@@ -12,13 +12,13 @@ const ExploreCard = ({ id, imgUrl, skill, title, index, active, handleClick }) =
     >
         <img
             src={imgUrl}
-            alt="planet-04"
+            alt="Character"
             className="absolute w-full h-full object-cover rounded-[24px]"
         />
         {active !== id ? (
             <h3 className='font-semibold sm:text-[30px] text-[18px] text-white absolute z-0 
                lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] 
-               break-words text-center max-w-[150px]'>{title}</h3>
+               break-words text-start max-w-[150px]'>{title}</h3>
         ) : (
             <div className='absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px] '>
                 <p className='font-normal text-[16px] leading-[20px] text-white uppercase'>{skill}</p>

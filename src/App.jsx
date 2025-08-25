@@ -2,6 +2,7 @@ import Header from "./sections/Header"
 import Hero from "./sections/Hero"
 import Features from "./sections/Features"
 import Characters from "./sections/Characters"
+import Membership from "./sections/Membership"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero/>
         <Features/>
         <Characters/>
+        <Membership/>
       </main>
     </>
   )

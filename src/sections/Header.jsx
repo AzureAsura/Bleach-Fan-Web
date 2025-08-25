@@ -73,9 +73,9 @@ const Header = () => {
                                 </li>
 
                                 <li className='nav-li'>
-                                    <Navlink title='Gallery' />
+                                    <Navlink title='Membership' />
                                     <div className='dot' />
-                                    <Navlink title='Contact' />
+                                    <Navlink title='Gallery' />
                                 </li>
                             </ul>
                         </nav>
